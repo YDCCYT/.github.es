@@ -11,9 +11,45 @@
     <div class="ydcc">
         <h1>FELIZ CUMPLEAÑOS ISABEL</h1> 
         <p>
-            Hola isabel, he hecho esta pagina por tu cumpleaños, solo quiero decirte que eres la
-            mejor amiga que he tenido si te soy sincero y pues en mi vida habia conocido a alguien 
-            como tu
+            Hola isabel feliz cumple solo quiero hacerte saber el dia de hoy y aun 
+            que no lo diga para nada de verdad has sido la mejor de todas mis amigas(aun que casi ni tengo
+            amigas) en fin pasatela bien este gran dia y se feliz, no permitas que nada o nadie te 
+            quite esa gran felicidad y sonrrisa tan bella que tienes 
         </p>
+        <button id="Next" onclick="Next();">Next</button>
+    </div>
+    <div class="mariana">
+        <h1>Conocerte fue una de las mejores cosas que me ha sucedido</h1>
+        <p class="p1">
+            Recuerdo la primera vez que te vi y pensé ¿cómo se llamará esa niña? ¿Y si me odia 
+            por haberle quitado  su asiento?Al final todas esas preguntas  que me atormentaban 
+            se fueron desvaneciendo cuando te conocí . Supongo no me odiaste ( creo) , y terminaste siendo  una parte importante en mi vida
+        </p>
+        <p class="2">
+            Tú sabes que yo  te quierooo mucho  y estoy muy agradecida contigo por  
+            los momentos que hemos pasado juntas desde reírnos tanto hasta que lloremos 
+            y nos duela la panza, hasta los días en los que fracasamos en matemáticas.
+        </p>
+        <p class="3">
+            Deseo que en este nuevo año  de vida te  traiga todo lo que te mereces,
+            sobre todo felicidad y amor, y espero  estar junto a ti en  cada momento 
+        </p>
+        <h4 class="footer">
+            Feliz cumpleaños
+        </h4>
+        <h5 class="author">
+            Con amor, Nana
+        </h6>
+    </div>
+    <script>
+        function Next() {
+            var x = document.querySelector(".ydcc");
+            var y = document.querySelector(".mariana");
+            var color = document.querySelector("body");
+            color.style.background = "radial-gradient(circle, #fcf75e, #f8f32b)";
+            x.style.display = "none";
+            y.style.display = "block";
+        }
+    </script>
 </body>
 </html>
