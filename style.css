@@ -44,6 +44,19 @@ p {
     animation: fadeIn 1s ease-in-out;
 }
 
+.footer {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    margin: 30px;
+}
+
+.authoryd {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+}
+
 @media screen and (max-width: 1080px) and (max-height: 2400px) {
     body {
         background: radial-gradient(#162930, #000000);
@@ -59,14 +72,14 @@ p {
 }
 
 #Next {
-    width: 100px;
-    height: 40px;
+    width: 150px;
+    height: 100px;
     color: white;
     background-color: transparent;
     border: white 2px solid;
     border-radius: 10px;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 30px;
+    font-weight: 900;
 }
 
 #Next:hover {
@@ -78,6 +91,7 @@ p {
 .mariana{
     display: none;
     position: absolute;
+    top: 20px;
     width: 700px;
     align-items: center;
     padding: 20px;
@@ -88,10 +102,17 @@ p {
     box-shadow: #000 0px 0px 20px;
 }
 
+.footer-mna {
+    color: black;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
 .mariana h1 {
     color: black;
     text-align: center;
     font-size: 30px;
+    margin-top: 20px;
 }
 
 .mariana p {
@@ -109,6 +130,106 @@ h4 {
 
 h5 {
     color: black;
-    text-align: center;
+    text-align: left;
     margin-top: 25px;
+}
+
+#Next2 {
+    position: relative;
+    left: 38.5%;
+    width: 150px;
+    height: 100px;
+    color: black;
+    background-color: transparent;
+    border: black 2px solid;
+    border-radius: 10px;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+#Next2:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.jhorman {
+    display: none;
+    margin-top: 50px;
+    position: absolute;
+    width: 700px;
+    align-items: center;
+    border: #000 4px solid;
+    border-radius: 30px;
+}
+
+#frase {
+    position: relative;
+    height: 70px;
+    width: 150px;
+    left: 37%;
+    margin: 20px;
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    background-color: transparent;
+    border: black 2px solid;
+    border-radius: 10px;
+}
+
+#frase:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.JH {
+    margin-top: 50px;
+}
+
+h4 .jhorman {
+    color: black;
+}
+
+.author-JHR {
+    text-align: left;
+    font-size: 16px;
+    margin: 30px;
+}
+
+.jhorman p {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;;
+}
+
+.frase {
+    display: none;
+    border: #000 2px solid;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: #000 0px 0px 20px;
+    width: 700px;
+    align-items: center;
+}
+
+#backAll {
+    position: relative;
+    left: 33%;
+    width: 180px;
+    height: 100px;
+    margin: 20px;
+    color: black;
+    background-color: transparent;
+    border: black 3px solid;
+    border-radius: 20px;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#backAll:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
 }
